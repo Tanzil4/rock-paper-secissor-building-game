@@ -1,0 +1,77 @@
+@media only screen and (max-width: 1190px) {
+  img{
+    height: 200px;
+    width: 200px;
+   
+  }
+  .choices{
+gap: 50px;
+  }
+  }
+@media only screen and (max-width: 724px) {
+  img{
+    height: 150px;
+    width: 150px;
+   
+  }
+  .choices{
+gap: 30px;
+  }
+
+  #user-score, #comp-score{
+    font-size: 3rem;
+}
+
+#msg{
+    font-size: 20px;
+}
+  }
+@media only screen and (max-width: 526px) {
+  
+  .choices{
+gap: 20px;
+display: flex;
+flex-wrap: wrap;
+margin-top: 20px;
+  }
+
+  #user-score, #comp-score{
+    font-size: 3rem;
+    margin-top: -50px;
+}
+
+#msg{
+    font-size: 20px;
+    margin-top: 20px;
+}
+h1{
+    font-size: 1.5rem;
+}
+  }
+@media only screen and (max-width: 288px) {
+  
+  .choices{
+gap: 20px;
+display: flex;
+flex-wrap: wrap;
+margin-top: 20px;
+  }
+
+  #user-score, #comp-score{
+    font-size: 2rem;
+    margin-top: -50px;
+}
+
+#msg{
+    font-size: 15px;
+    margin-top: 20px;
+}
+h1{
+    font-size: 1rem;
+}
+.score-board{
+    font-size: 20px;
+    gap: 15px;
+}
+  }
+
